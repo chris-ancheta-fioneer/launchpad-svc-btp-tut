@@ -42,3 +42,6 @@ If you have suggestions on how to improve the tutorial, you are welcome to provi
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/cloud-cap-risk-management)](https://api.reuse.software/info/github.com/SAP-samples/cloud-cap-risk-management)
 
 Copyright (c) 2022 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
+
+## Notes & FAQ
+Make sure to align the declared MAJOR version number with the one on your own machine in `./package.json` under the `engine` section.
