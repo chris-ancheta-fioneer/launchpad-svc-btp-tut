@@ -21,9 +21,9 @@ modules:
   type: hdb
   path: gen/db
   requires:
-  - name: cpapp-db
-  parameters:
-    buildpack: nodejs_buildpack
+    - name: cpapp-db
+      parameters:
+        buildpack: nodejs_buildpack
 - name: cpapp-destinations
   type: com.sap.application.content
   requires:
